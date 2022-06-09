@@ -1,0 +1,35 @@
+.wrapper {
+    height: 500px;
+    width: 300px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form {
+    display: flex;
+    button {
+        outline: none;
+        border: none;
+        background: #3840af;
+        color: white;
+        padding: 8px 6px;
+        width: 100%;
+        transition: 0.2s;
+        cursor: pointer;
+        &:hover {
+            background: #252eae;
+        }
+    }
+    input {
+        border-top: 1px solid #3840af7a;
+        outline: none;
+    }
+}
+
+.messagesBody {
+    overflow-y: scroll;
+    height: 100%;
+}
